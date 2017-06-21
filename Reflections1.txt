@@ -1,0 +1,52 @@
+QUESTION:
+How could having easy access to the entire history of a file make you a more efficient programmer 
+in the long term?
+
+The easy access to the entire history of a file ensures that the progress of the file is saved at different 
+points of time.This in turn allows us to keep track of our file progress and if or when we need to change our 
+file's content to a previous ssssssssversion, we can do so easily.
+
+
+
+
+
+Question:
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros:
+1. You can choose to commit a set of related changes in a single commit.
+2. You can coose to only commit whenever any logical changes occur making it easy to find the difference between two versions of commit.
+
+Cons:
+1. The number of commits could either be too small, making a lists of commits for a single type of error, or too big, making it hard to differentiate between two versions of commit.
+2. The user may forget to commit his file for a significant amount of changes, thus making the changes in the file temporary and they could be lost.
+
+
+
+Question:
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+The version control systems, like Git, save interrelated files in a repository. These files share some resources and thus if a change is made to one of the files, it may be required that corresponding changes need to be made in the other files as well. Thus, all the changes made in the files in the repository need to be saved in a single commit.
+While version control systems, like Google Docs, have no concept of repository. They treat each file separately and so the changes to one file are not reflected in the other files. Thus, a single commit saves only the file that has been changed.
+
+
+QUESTION:
+How can you use the commands git log and git diff to view the history of files?
+
+git log: Lists the commits along with their id, author, date and message. The list is from most recent to the oldest.
+git diff: Is used to find the difference between two versions of commit of a file. The new version of the commit is compared with the earlier ersion and the lines that were inserted or deleted are displayed. red lines indicate the deleted lines that only existed in the old version while the green lines indicate the lines that have been inserted, i.e the lines that exist only in the new version.
+
+
+
+QUESTION:
+How might using version control make you more confident to make changes that could break something?
+
+Version control allows for temporarily setting our files to how they were at a time a commit was made. This features allows us to check the behaviour of our files at different points of time. Thus, if a change has been made by mistake of the coder, one can easily pinpoint the location of its introduction, making the finding of the bug less time consuming.
+Also, with version control, many significant changes can be made in the code, which otherwise would be difficult to make because of fear of breaking the entire code of the file.	
+
+
+
+QUESTION:
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Git is a great version control system that allows saving of versions of a system and taking greater chances at modifying codes in a file. I would like to use git to change the outlook of a program's code so that different behaviours of the code can be easily used.
